@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Sharthak Sharma, a BCA student interested in web development and artificial intelligence.">
+  <title>Sharthak Sharma | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Sharthak Sharma home">
+        <span class="brand-mark">SS</span>
+        <span>Sharthak Sharma</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow">Hello, I am</p>
+          <h1>Sharthak Sharma</h1>
+          <p class="hero-role">BCA Student | Web Development &amp; AI Enthusiast</p>
+          <p>I am learning to build simple, useful websites and exploring how artificial intelligence can support creative ideas.</p>
+          <div class="button-group">
+            <a class="button button-primary" href="#projects">View My Projects</a>
+            <a class="button button-light" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img class="profile-picture" src="images/profilepic.jpg" width="320" height="320" alt="Profile picture of Sharthak Sharma">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-layout">
+          <div>
+            <p>My name is <strong>Sharthak Sharma</strong>, and I am pursuing a Bachelor of Computer Applications (BCA). My main interests are web development and artificial intelligence.</p>
+            <p>I enjoy learning through small projects, practising clean HTML and CSS, and using JavaScript to make webpages interactive. I am also developing my skills in Python and React.js.</p>
+            <button id="knowMoreBtn" class="button button-primary" type="button">Know More About Me</button>
+          </div>
+          <aside class="facts-card">
+            <h3>Quick Facts</h3>
+            <ul>
+              <li><strong>Education:</strong> Bachelor of Computer Applications (BCA)</li>
+              <li><strong>Interests:</strong> Web Development and Artificial Intelligence</li>
+              <li><strong>Location:</strong> <span class="placeholder">Gwalior</span></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <p class="section-intro">Technologies I am learning and using in my projects.</p>
+        <ul class="card-grid skills-grid">
+          <li class="card"><h3>HTML</h3><p>Semantic page structure and accessible markup.</p></li>
+          <li class="card"><h3>CSS</h3><p>Responsive layouts and clean visual styling.</p></li>
+          <li class="card"><h3>JavaScript</h3><p>Basic DOM interaction and page behaviour.</p></li>
+          <li class="card"><h3>Python</h3><p>Core programming and small scripts.</p></li>
+          <li class="card"><h3>React.js</h3><p>Learning reusable component-based interfaces.</p></li>
+          <li class="card"><h3>Generative AI</h3><p>Exploring AI systems that generate useful text and content.</p></li>
+          <li class="card"><h3>Agentic AI</h3><p>Learning how AI agents can reason through tasks and workflows.</p></li>
+          <li class="card"><h3>Machine Learning Fundamentals</h3><p>Currently learning the core concepts of machine learning.</p></li>
+          <li class="card"><h3>MongoDB</h3><p>Working with document-based databases for application data.</p></li>
+          <li class="card"><h3>ChromaDB</h3><p>Exploring vector storage for AI and retrieval-based applications.</p></li>
+          <li class="card"><h3>SQL</h3><p>Learning relational database queries and data management.</p></li>
+          <li class="card"><h3>PostgreSQL</h3><p>Working with a powerful open-source relational database.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="section-intro">A selection of projects I have worked on.</p>
+        <div class="card-grid projects-grid">
+          <article class="card project-card">
+            <h3>Smart Healthcare Assistant and Monitoring System</h3>
+            <p>A healthcare-focused assistant and monitoring system built with retrieval-augmented generation and modern web technologies.</p>
+            <p class="tags"><span>FastAPI</span><span>LangChain</span><span>LangGraph</span><span>RAG</span><span>React.js</span></p>
+          </article>
+          <article class="card project-card">
+            <h3>Code Reviewer</h3>
+            <p>A code review project built to explore automated review workflows using Python and LangGraph.</p>
+            <p class="tags"><span>Python</span><span>LangGraph</span><span>LangChain</span></p>
+          </article>
+          <article class="card project-card">
+            <h3>Hireflow Core Backend</h3>
+            <p>A backend project focused on core services and server-side functionality for a hiring workflow.</p>
+            <p class="tags"><span>Node.js</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-section">
+        <h2>Contact</h2>
+        <p class="section-intro">I would be happy to connect and hear from you.</p>
+        <div class="contact-card">
+          <p><strong>Email:</strong> <a href="mailto:sarthaksharma6735@gmail.com">sarthaksharma6735@gmail.com</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/MustbeSarthak" target="_blank" rel="noopener noreferrer">github.com/MustbeSarthak</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sharthak-sharma/" target="_blank" rel="noopener noreferrer">linkedin.com/in/sharthak-sharma</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="currentYear">2026</span> Sharthak Sharma. Built with HTML, CSS, and vanilla JavaScript.</p>
+  </footer>
+</body>
+</html>

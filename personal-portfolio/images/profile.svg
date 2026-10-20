@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-label="Profile picture of Sharthak Sharma">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2f6fed"/>
+      <stop offset="100%" stop-color="#1f2f52"/>
+    </linearGradient>
+    <clipPath id="round">
+      <circle cx="160" cy="160" r="160"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="320" height="320" fill="url(#bg)"/>
+
+    <!-- shoulders -->
+    <path d="M160 205c-52 0-94 32-104 74v41h208v-41c-10-42-52-74-104-74z" fill="#ffffff" opacity="0.92"/>
+    <!-- neck -->
+    <rect x="140" y="168" width="40" height="46" rx="18" fill="#f0c8a8"/>
+    <!-- head -->
+    <circle cx="160" cy="130" r="54" fill="#f7d3b4"/>
+    <!-- hair -->
+    <path d="M106 126c0-32 24-56 54-56s54 24 54 56c0-16-20-22-54-22s-54 6-54 22z" fill="#2b2b33"/>
+    <!-- eyes -->
+    <circle cx="142" cy="132" r="5" fill="#2b2b33"/>
+    <circle cx="178" cy="132" r="5" fill="#2b2b33"/>
+    <!-- smile -->
+    <path d="M144 156c8 8 24 8 32 0" fill="none" stroke="#2b2b33" stroke-width="4" stroke-linecap="round"/>
+    <!-- collar -->
+    <path d="M160 205l-26 22 26 22 26-22z" fill="#eaf1fe"/>
+  </g>
+</svg>
